@@ -1,0 +1,90 @@
+.login {
+    height: 100vh;
+    background-color: rgb(1,4,9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-family: 'Mad';
+        color: rgb(206, 206, 206);
+        font-size: 40px;
+        font-weight: 800;
+        margin-top: 150px;
+    }
+}
+
+.login__form {
+    width: 500px;
+    height: 800px;
+    border: 1px solid rgba(206, 206, 206, 0.5);
+    background-color: rgb(10, 13, 17);
+    border-radius: 20px;
+    box-shadow: 0 0 20px 5px rgba(63, 63, 63, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Mad';
+    color: rgb(206, 206, 206);
+    font-size: 20px;
+}
+
+.login__form__label1 {
+    margin-top: 70px;
+}
+
+.login__form__label__input {
+    width: 400px;
+    height: 30px;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    font-family: "Mad";
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.1);
+
+    &:focus {
+        color: white;
+        font-size: 20px;
+        font-family: "Mad";
+        background-color: rgba(0, 0, 0, 0.25);
+        border-color: rgb(126, 217, 245);
+        outline: 0;
+        box-shadow: none;
+    }
+
+    &::placeholder {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 20px;
+        font-family: "Mad";
+    }
+}
+
+.login__button {
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(206, 206, 206);
+    font-size: 20px;
+    font-family: "Mad";
+    border-radius: 5px;
+    border: 2px solid rgba(206, 206, 206, 0.5);
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+        border-color: rgb(126, 217, 245);
+        box-shadow: 0 0 10px 0px rgb(126, 217, 245);
+    }
+}
+
+.success {
+    margin-top: 350px;
+    color: rgb(126, 217, 245);
+    font-size: 40px;
+    font-family: "Mad";
+    font-weight: 800;
+}

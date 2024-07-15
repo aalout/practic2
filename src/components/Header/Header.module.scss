@@ -1,0 +1,45 @@
+.header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #000000;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.header__nav__link {
+    text-decoration: none;
+
+    &:hover p{
+        text-shadow: rgb(255, 255, 255) 1px 0 20px;
+        color: rgb(126, 217, 245);;
+    }
+
+    p {
+        font-family: 'Mad';
+        color: rgb(206, 206, 206);
+        font-size: 20px;
+        font-weight: 600;
+        transition: all 0.2s ease;
+    }
+}
+
+.logout__button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Mad';
+    color: rgb(206, 206, 206);
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:hover{
+        color: rgb(245, 42, 42);;
+    }
+}

@@ -1,6 +1,6 @@
-import '@/styles/variables.scss';
 import '@/styles/index.scss'
 import type { Metadata } from "next";
+import Header from '@/components/Header';
 
 export const metadata: Metadata = {
     title: "Auth",
@@ -15,6 +15,7 @@ export default function RootLayout({
     return (
         <html lang="eng">
             <body className="wrapper">
+                <Header/>
                     <main>{children}</main>
             </body>
         </html>
