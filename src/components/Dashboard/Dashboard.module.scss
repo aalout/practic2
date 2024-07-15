@@ -1,0 +1,88 @@
+.body {
+    background-color: rgb(1,4,9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.body__section {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 800px;
+    border: 1px solid rgba(206, 206, 206, 0.5);
+    background-color: rgb(10, 13, 17);
+    border-radius: 20px;
+    box-shadow: 0 0 20px 5px rgba(63, 63, 63, 0.5);
+    padding: 20px;
+
+    h1 {
+        font-family: 'Mad';
+        color: rgb(206, 206, 206);
+        font-size: 40px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    p {
+        font-family: 'Mad';
+        color: rgb(206, 206, 206);
+        font-size: 20px;
+        margin: 0 auto;
+    }
+}
+
+.logout {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Mad';
+    color: rgb(245, 42, 42);
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-top: 10px;
+}
+
+.body__section__aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 150px;
+
+    h2 {
+        font-family: 'Mad';
+        color: rgb(206, 206, 206);
+        font-size: 20px;
+        margin: 0 auto;
+    }
+}
+
+.body__features {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.body__feature__li {
+    font-family: 'Mad';
+    color: rgb(206, 206, 206);
+    font-size: 16px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgb(126, 217, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body__section__con {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}

@@ -52,6 +52,7 @@ class AuthStore {
     }
   });
 
+  //пока нигде не реализовано в проекте, использую чисто в тестовом формате
   refreshToken = action(async () => {
     try {
       const API_URL = 'https://api.vertical.chulakov.dev';
